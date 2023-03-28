@@ -21,7 +21,7 @@
         <div class="container">
             <h1>Your word "{{ word }}" could not be found</h1>
             {% if suggestions %}
-            <h3>Herer are some suggested words</h3>
+            <h3>Here are some suggested words</h3>
             {% for suggestion in suggestions %}
             <a href="/detail/{{ suggestion }}" class="btn btn-primary" style="margin: 0 8px 8px 0;">{{ suggestion }}</a>
             {% endfor %}
